@@ -5,13 +5,13 @@ from sklearn import linear_model
 import matplotlib.pyplot as plt
 import helper
 
-A_X_train, A_Y_train = helper.load_data("X_train_A.csv", "Y_train_A.csv")
-B_X_train, B_Y_train = helper.load_data("X_train_B.csv", "Y_train_B.csv")
-C_X_train, C_Y_train = helper.load_data("X_train_C.csv", "Y_train_C.csv")
+A_X_train, A_Y_train = helper.load_data("data/X_train_A.csv", "data/Y_train_A.csv")
+B_X_train, B_Y_train = helper.load_data("data/X_train_B.csv", "data/Y_train_B.csv")
+C_X_train, C_Y_train = helper.load_data("data/X_train_C.csv", "data/Y_train_C.csv")
 
-A_X_test, A_Y_test = helper.load_data("X_test_A.csv", "Y_test_A.csv")
-B_X_test, B_Y_test = helper.load_data("X_test_B.csv", "Y_test_B.csv")
-C_X_test, C_Y_test = helper.load_data("X_test_C.csv", "Y_test_C.csv")
+A_X_test, A_Y_test = helper.load_data("data/X_test_A.csv", "data/Y_test_A.csv")
+B_X_test, B_Y_test = helper.load_data("data/X_test_B.csv", "data/Y_test_B.csv")
+C_X_test, C_Y_test = helper.load_data("data/X_test_C.csv", "data/Y_test_C.csv")
 
 
 # Caculate Mean Squared Error
