@@ -81,6 +81,8 @@ def mean_squared_error(Y, predict):
     diff = np.power(np.ndarray.flatten(Y)-np.ndarray.flatten(predict), 2)
     return sum(diff)/len(diff)
 
+
+# Load datasets
 D_X_train, D_Y_train = helper.load_data("data/X_train_D.csv", "data/Y_train_D.csv")
 E_X_train, E_Y_train = helper.load_data("data/X_train_E.csv", "data/Y_train_E.csv")
 
