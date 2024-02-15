@@ -78,10 +78,10 @@ def mean_squared_error(Y, predict):
     return sum(diff)/len(diff)
 
 #load in data
-training_x_file = "housing_X_train.csv"
-training_y_file = "housing_y_train.csv"
-testing_x_file = "housing_X_test.csv"
-testing_y_file = "housing_y_test.csv"
+training_x_file = "data/housing_X_train.csv"
+training_y_file = "data/housing_y_train.csv"
+testing_x_file = "data/housing_X_test.csv"
+testing_y_file = "data/housing_y_test.csv"
 
 trainX, trainY = helper.load_data(training_x_file, training_y_file)
 testX, testY = helper.load_data(testing_x_file, testing_y_file)
