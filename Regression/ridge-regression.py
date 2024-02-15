@@ -47,6 +47,7 @@ def gradient_descent(X, Y, w, b, lamb, max, eta, tol):
     solution = wt1
     return solution[:-1], solution[-1], train_loss
 
+# standardize the data features
 def standardize(X):
     XT = np.transpose(X)
     mean = [sum(XT[i])/float(len(XT[i])) for i in range(XT.shape[0])]
@@ -57,7 +58,7 @@ def standardize(X):
     return X
 
 
-# Test your two implementations on the Boston housing dataset
+# Test two implementations on the Boston housing dataset
 
 # Calculatie training_error
 def training_error(X, Y, w, b):
