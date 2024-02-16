@@ -18,3 +18,7 @@ ridge-regression.py: The two implementations of ridge regression (closed-form an
 regression-compare.py: Training of (unregularized) linear regression, ridge regression, and lasso on the datasets A, B, and C along with performance evaluation.
 
 nearest-neighbour.py: The Implementation k-nearest neighbour regression and comparison with linear regression of the performance on different datasets 
+
+## Support Vector Machine
+
+
