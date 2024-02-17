@@ -34,4 +34,6 @@ bagging.py: The use of Bagging technique to increase the accuracy of the decisio
 
 random-forest.py: The use of random forests method to increase the accuracy of the decision tree, which considers only a random certain number of features when deciding which dimension to split on depend on the dataset.
 
+## Convolutional Neural Network
+
 
