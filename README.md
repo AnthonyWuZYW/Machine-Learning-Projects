@@ -8,6 +8,7 @@ The repository contains projects that utilize various modeling and algorithmic t
     - scikit-learn
     - sklearn
     - statsmodels
+    - statistics
 
 # Projects Summary
 
@@ -17,7 +18,7 @@ ridge-regression.py: The two implementations of ridge regression (closed-form an
 
 regression-compare.py: Training of (unregularized) linear regression, ridge regression, and lasso on the datasets A, B, and C along with performance evaluation.
 
-nearest-neighbour.py: The Implementation k-nearest neighbour regression and comparison with linear regression of the performance on different datasets 
+nearest-neighbour.py: The Implementation k-nearest neighbour regression and comparison with linear regression of the performance on different datasets.
 
 ## Support Vector Machine
 
@@ -27,5 +28,10 @@ svm-gradient: The Implementation of gradient algorithm for solving a support vec
 
 ## Decision Trees
 
+binary-class.py: The Implementation of decision tree with different loss function (Gini coefficient, Misclassification, and Entropy) and performance analysis on each approach.
+
+bagging.py: The use of Bagging technique to increase the accuracy of the decision tree using the entropy loss, thus creating an ensemble of 101 decision trees with the maximum depth at 3. 
+
+random-forest.py: The use of random forests method to increase the accuracy of the decision tree, which considers only a random certain number of features when deciding which dimension to split on depend on the dataset.
 
 
