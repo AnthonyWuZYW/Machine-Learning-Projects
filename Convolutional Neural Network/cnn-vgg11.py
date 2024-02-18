@@ -85,7 +85,7 @@ for epoch in range(5):  # loop over the dataset multiple times
         loss.backward()
         optimizer.step()
 
-    print("Epoch ", epoch + 1)
+    print("Epoch ", epoch + 1, "Finished")
     # save model with epoch 3 - 5
     if epoch >= 2:
         PATH = './trained_epoch' + str(epoch + 1) + '.pth'
