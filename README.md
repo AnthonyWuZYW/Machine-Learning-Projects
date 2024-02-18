@@ -38,3 +38,4 @@ random-forest.py: The use of random forests method to increase the accuracy of t
 
 cnn-vgg11.py: The implementation of VGG11 deep neural network architecture from scratch. The project also trains the model on MNIST dataset with different number of epoch. Trained models are saved as .pth files.
 
+cnn-compare.py: Performance comparison between trained model with different number of epoch (loss and accuracy).
