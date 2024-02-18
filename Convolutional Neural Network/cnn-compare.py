@@ -79,7 +79,7 @@ net = Net()
 
 for epoch in epochs:
     # previous trained model
-    PATH = './trained_epoch' + str(epoch) + '.pth'
+    PATH = './trained-models/trained_epoch' + str(epoch) + '.pth'
     net.load_state_dict(torch.load(PATH))
 
     criterion = nn.CrossEntropyLoss()

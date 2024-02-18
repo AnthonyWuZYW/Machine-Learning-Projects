@@ -88,7 +88,7 @@ for epoch in range(5):  # loop over the dataset multiple times
     print("Epoch ", epoch + 1, "Finished")
     # save model with epoch 3 - 5
     if epoch >= 2:
-        PATH = './trained_epoch' + str(epoch + 1) + '.pth'
+        PATH = './trained-models/trained_epoch' + str(epoch + 1) + '.pth'
         torch.save(net.state_dict(), PATH)
 
 print('Finished Training')
