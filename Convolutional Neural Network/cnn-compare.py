@@ -76,6 +76,7 @@ test_loss = []
 test_accuracy = []
 
 net = Net()
+net.eval()
 
 for epoch in epochs:
     # previous trained model
@@ -83,8 +84,6 @@ for epoch in epochs:
     net.load_state_dict(torch.load(PATH))
 
     criterion = nn.CrossEntropyLoss()
-
-    net.eval()
 
     with torch.no_grad():
         correct = 0
