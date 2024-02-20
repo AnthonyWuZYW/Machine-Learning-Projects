@@ -10,7 +10,7 @@ The repository contains projects that utilize various modeling and algorithmic t
     - statsmodels
     - statistics
 
-# Projects Summary
+# Projects Summaries
 
 ## Regression
 
