@@ -44,3 +44,5 @@ cnn-augmentation.py: Performance analysis of trained VGG11 model on augmented da
 
 ## Guassian Mixture Model
 
+gmm.py: The implementation of Guassian Mixture Model and the training on the sample dataset. 
+
