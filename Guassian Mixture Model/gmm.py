@@ -59,7 +59,7 @@ def EM_GMM(X, K, pi=None, mu=None, S=None, Max_iter=500):
 
 
 # Choose optimal k by trial
-L = []
+#L = []
 #K = [k+1 for k in range(10)]
 #for k in K:
 #    pi, mu, S, l = EM_GMM(X_train, k)
