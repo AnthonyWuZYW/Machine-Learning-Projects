@@ -41,3 +41,6 @@ cnn-vgg11.py: The implementation of VGG11 deep neural network architecture from 
 cnn-compare.py: Performance comparison between trained VGG11 model with different epochs (loss and accuracy).
 
 cnn-augmentation.py: Performance analysis of trained VGG11 model on augmented data (horizontal flip, vertical flip, blur in different degrees).
+
+## Guassian Mixture Model
+
