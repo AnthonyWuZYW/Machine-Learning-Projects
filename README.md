@@ -50,3 +50,5 @@ gmm.py: The implementation of Guassian Mixture Model and the training on the sam
 
 vae.py: The implementation of Variational Autoencoder and generation of sample images.
 
+gan.py: The implementation of Generative Adversarial Network and generation of sample images.
+
