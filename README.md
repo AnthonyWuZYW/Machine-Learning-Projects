@@ -16,7 +16,7 @@ The repository contains projects that utilize various modeling and algorithmic t
 
 ridge-regression.py: The two implementations of ridge regression (closed-form and gradient descent) and the performance evaluation with the Boston housing datasets.
 
-regression-compare.py: Training of (unregularized) linear regression, ridge regression, and lasso on the datasets A, B, and C along with performance evaluation.
+regression-compare.py: Training of (unregularized) linear regression, ridge regression, and lasso on the datasets along with performance evaluation.
 
 nearest-neighbour.py: The implementation of k-nearest neighbour regression and comparison with linear regression of the performance on different datasets.
 
