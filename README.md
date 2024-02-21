@@ -46,3 +46,7 @@ cnn-augmentation.py: Performance analysis of trained VGG11 model on augmented da
 
 gmm.py: The implementation of Guassian Mixture Model and the training on the sample dataset. 
 
+## Generative Model
+
+vae.py: The implementation of Variational Autoencoder and generation of sample images.
+
