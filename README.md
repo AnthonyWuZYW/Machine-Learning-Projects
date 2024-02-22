@@ -12,12 +12,6 @@ The repository contains projects that utilize various modeling and algorithmic t
 
 # Projects Summaries
 
-## Generative Model
-
-vae.py: The implementation of Variational Autoencoder and generation of sample images.
-
-gan.py: The implementation of Generative Adversarial Network and generation of sample images.
-
 ## Convolutional Neural Network
 
 cnn-vgg11.py: The implementation of VGG11 deep neural network architecture from scratch. The project also trains the model on the MNIST dataset with different epochs. Trained models are saved as .pth files.
@@ -25,6 +19,12 @@ cnn-vgg11.py: The implementation of VGG11 deep neural network architecture from 
 cnn-compare.py: Performance comparison between trained VGG11 model with different epochs (loss and accuracy).
 
 cnn-augmentation.py: Performance analysis of trained VGG11 model on augmented data (horizontal flip, vertical flip, blur in different degrees).
+
+## Generative Model
+
+vae.py: The implementation of Variational Autoencoder and generation of sample images.
+
+gan.py: The implementation of Generative Adversarial Network and generation of sample images.
 
 ## Regression
 
