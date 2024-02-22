@@ -26,6 +26,10 @@ vae.py: The implementation of Variational Autoencoder and generation of sample i
 
 gan.py: The implementation of Generative Adversarial Network and generation of sample images.
 
+## Adversarial Learning
+
+neural-network.py: A simple neural network architecture with three layers and Relu as the activation function. Trained on MNIST datasets and saved trained model as .pth files.
+
 ## Regression
 
 ridge-regression.py: The two implementations of ridge regression (closed-form and gradient descent) and the performance evaluation with the Boston housing datasets.
