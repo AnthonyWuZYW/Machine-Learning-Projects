@@ -3,7 +3,6 @@ import torch
 import torch.utils.data
 from torch import nn
 from torchvision import datasets, transforms
-from torchvision.utils import save_image
 
 
 batch_size = 100
