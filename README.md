@@ -30,6 +30,8 @@ gan.py: The implementation of Generative Adversarial Network and generation of s
 
 neural-network.py: A simple neural network architecture with three layers and Relu as the activation function. Trained on MNIST datasets and saved trained model as .pth files.
 
+FGSM.py: The implementation of Fast Gradient Sign Method (FGSM) to generate adversarial images and its effect on performance.
+
 ## Regression
 
 ridge-regression.py: The two implementations of ridge regression (closed-form and gradient descent) and the performance evaluation with the Boston housing datasets.
