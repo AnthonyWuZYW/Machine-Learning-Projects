@@ -3,10 +3,7 @@ import torch
 import torch.utils.data
 from torch import nn, optim
 from torchvision import datasets, transforms
-import os
 
-if not os.path.exists('results'):
-    os.mkdir('results')
 
 batch_size = 100
 cuda = torch.cuda.is_available()
