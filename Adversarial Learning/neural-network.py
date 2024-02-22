@@ -21,7 +21,7 @@ test_loader = torch.utils.data.DataLoader(
 criterion = nn.CrossEntropyLoss()
 
 
-# Implement a simple neural network
+# Implemention of a simple neural network
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
