@@ -12,6 +12,20 @@ The repository contains projects that utilize various modeling and algorithmic t
 
 # Projects Summaries
 
+## Generative Model
+
+vae.py: The implementation of Variational Autoencoder and generation of sample images.
+
+gan.py: The implementation of Generative Adversarial Network and generation of sample images.
+
+## Convolutional Neural Network
+
+cnn-vgg11.py: The implementation of VGG11 deep neural network architecture from scratch. The project also trains the model on the MNIST dataset with different epochs. Trained models are saved as .pth files.
+
+cnn-compare.py: Performance comparison between trained VGG11 model with different epochs (loss and accuracy).
+
+cnn-augmentation.py: Performance analysis of trained VGG11 model on augmented data (horizontal flip, vertical flip, blur in different degrees).
+
 ## Regression
 
 ridge-regression.py: The two implementations of ridge regression (closed-form and gradient descent) and the performance evaluation with the Boston housing datasets.
@@ -34,21 +48,7 @@ bagging.py: The use of the Bagging technique to increase the accuracy of the dec
 
 random-forest.py: The use of the Random Forests method to increase the accuracy of the decision tree, which considers only a random certain number of features when deciding which dimension to split on depending on the dataset.
 
-## Convolutional Neural Network
-
-cnn-vgg11.py: The implementation of VGG11 deep neural network architecture from scratch. The project also trains the model on the MNIST dataset with different epochs. Trained models are saved as .pth files.
-
-cnn-compare.py: Performance comparison between trained VGG11 model with different epochs (loss and accuracy).
-
-cnn-augmentation.py: Performance analysis of trained VGG11 model on augmented data (horizontal flip, vertical flip, blur in different degrees).
-
 ## Guassian Mixture Model
 
 gmm.py: The implementation of Guassian Mixture Model and the training on the sample dataset. 
-
-## Generative Model
-
-vae.py: The implementation of Variational Autoencoder and generation of sample images.
-
-gan.py: The implementation of Generative Adversarial Network and generation of sample images.
 
