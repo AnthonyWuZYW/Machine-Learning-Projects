@@ -17,6 +17,7 @@ train_loader = torch.utils.data.DataLoader(
 
 criterion = nn.CrossEntropyLoss()
 
+# perturbation budget
 epsilon = 0.3
 eta = 0.017
 steps = 20
