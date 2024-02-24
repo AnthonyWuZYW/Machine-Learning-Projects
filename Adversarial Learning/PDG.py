@@ -79,5 +79,3 @@ for epoch in range(20):
     train(net, optimizer)
     print("Epoch" + str(1+epoch))
 
-PATH = './model_adv.pth'
-torch.save(net.state_dict(), PATH)
