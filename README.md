@@ -32,7 +32,7 @@ neural-network.py: A simple neural network architecture with three layers and Re
 
 FGSM.py: The implementation of Fast Gradient Sign Method (FGSM) to generate adversarial images and its effect on performance based on different perturbation budget.
 
-PDG.py: The implementation of Projected Gradient Descent (PDG) to generate adversarial images and its effect on performance based on different perturbation budget.
+PDG.py: The implementation of Projected Gradient Descent (PDG) to generate adversarial images and training of simple neural network architecture with adversarial images.
 
 ## Regression
 
